@@ -15,15 +15,6 @@
     <version>1.0.0</version>
     <name>fstDay-web</name>
 
-    <profiles>
-        <profile>
-            <id>me</id>
-            <properties>
-                <maven.log.dir>/Users/Mr.Rabbit/Documents/Intellij/logs</maven.log.dir>
-            </properties>
-        </profile>
-    </profiles>
-
     <dependencies>
         <dependency>
             <groupId>com.rabbit.web</groupId>
@@ -31,14 +22,4 @@
             <version>1.0.0</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-    </build>
-
 </project>

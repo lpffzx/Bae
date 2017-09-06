@@ -17,6 +17,29 @@
         <module>thdDay-web</module>
     </modules>
 
+    <profiles>
+        <profile>
+            <id>Toni</id>
+            <properties>
+                <maven.log.dir>/Users/Mr.Rabbit/Documents/Intellij/logs</maven.log.dir>
+                <maven.jdbc.url>jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
+                <maven.jdbc.username>root</maven.jdbc.username>
+                <maven.jdbc.password>zh593190</maven.jdbc.password>
+                <maven.jdbc.driver.location>/Users/Mr.Rabbit/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar</maven.jdbc.driver.location>
+            </properties>
+        </profile>
+        <profile>
+            <id>Kevin</id>
+            <properties>
+                <maven.log.dir>C:/Users/kevin5_li/Documents/Intellij/logs</maven.log.dir>
+                <maven.jdbc.url>jdbc:mysql://localhost:3306/bae?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
+                <maven.jdbc.username>root</maven.jdbc.username>
+                <maven.jdbc.password>password</maven.jdbc.password>
+                <maven.jdbc.driver.location>C:/Users/kevin5_li/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar</maven.jdbc.driver.location>
+            </properties>
+        </profile>
+    </profiles>
+
     <properties>
         <mybatis-generator-core-version>1.3.5</mybatis-generator-core-version>
         <mybatis-version>3.4.2</mybatis-version>
@@ -265,4 +288,12 @@
         </dependency>
 
     </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>
