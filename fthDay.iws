@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fthDay-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f61dd52f-2fef-4ff2-9782-9835e3e7f790" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-common/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-dao/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-service/target/" />
+    <ignored path="$PROJECT_DIR$/fthDayserviceImpl/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-serviceImpl/target/" />
+    <ignored path="$PROJECT_DIR$/fthDayweb/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-web/target/" />
+    <ignored path="$PROJECT_DIR$/fthDay-bll/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fthDay" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jedis</find>
+      <find>paramMap</find>
+      <find>GeneratedCriteria</find>
+      <find>createCriteria</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fthDay-common/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/params/LifePayUserPDTO.java" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/params/LifePayBillPDTO.java" />
+        <option value="$PROJECT_DIR$/fthDay-serviceImpl/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/aspect/ExceptionHandleAspect.java" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/config/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/fthDay-common/src/main/java/com/rabbit/ssm/common/result/CommonErrorMessage.java" />
+        <option value="$PROJECT_DIR$/fthDay-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/MBG.properties" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/resources/config/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/config/spring-datasource.xml" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/resources/cache.properties" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/resources/config/spring-cache.xml" />
+        <option value="$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayRecordService.java" />
+        <option value="$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayUserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayUserDAO.java" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayFamilyDAO.java" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/sqlmapping/LifePayBillDAO.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayPowerUseRecordDAO.java" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/sqlmapping/LifePayPowerUseRecordDAO.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/resources/config/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayRecordDAO.java" />
+        <option value="$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayRecordlServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayBillService.java" />
+        <option value="$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayBillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayBillDAO.java" />
+        <option value="$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/lifepay/LifePayBill4ClientController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="common" />
+        <option value="me" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fstDay-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fthDay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fthDay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fthDay-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fthDay-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="74" />
+    <option name="y" value="41" />
+    <option name="width" value="1920" />
+    <option name="height" value="1173" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fthDay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fthDay" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20258273" />
+    <property name="SearchEverywhereHistoryKey" value="org.mybatis.generator.api.Plugin&#9;PSI&#9;JAVA://org.mybatis.generator.api.Plugin&#10;pom&#9;FILE&#9;file:///Users/Mr.Rabbit/Documents/Intellij/P/fthDay/pom.xml&#10;spri&#9;FILE&#9;file:///Users/Mr.Rabbit/Documents/Intellij/P/fthDay/fthDay-dao/src/main/resources/config/spring-datasource.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rabbit.ssm.domain" />
+      <recent name="" />
+      <recent name="com.rabbit.ssm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rabbit.ssm.service.impl" />
+      <recent name="com.rabbit.ssm.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl" />
+      <recent name="$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service" />
+      <recent name="$PROJECT_DIR$/fthDay-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller" />
+      <recent name="$PROJECT_DIR$/fthDay-web/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jetty Server.fthDay-web">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="fthDay-dao [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="common" value="true" />
+                <entry key="me" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/fthDay-dao" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="fthDay-web" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.3.9.v20160517" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/fthDay-web/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="fthDay-web:war exploded">
+          <settings DEPLOYMENT_METHOD="contexts">
+            <option name="contextRoot" value="/fthDay-web" />
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="modules/jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/gcloud-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/infinispan.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jdbc-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/logging.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/monitor.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/nosql.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="modules/jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/gcloud-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/infinispan.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jdbc-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/logging.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/monitor.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/nosql.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules/websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="fthDay-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Jetty Server.fthDay-web" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.fthDay-dao [mybatis-generator:generate]" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.fthDay-dao [mybatis-generator:generate]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61dd52f-2fef-4ff2-9782-9835e3e7f790" name="Default" comment="" />
+      <created>1504578243615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504578243615</updated>
+      <workItem from="1504578245152" duration="5400000" />
+      <workItem from="1504598332948" duration="15784000" />
+      <workItem from="1504749851079" duration="12993000" />
+      <workItem from="1504778338219" duration="2000" />
+      <workItem from="1504835176531" duration="8338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42517000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="74" y="41" width="1920" height="1173" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922202" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922202" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mybatis datasource" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.49620494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5037951" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/LifePayRecordDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1504581099000" expanded="false" signature="316:327" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="344:350" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="398:409" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="436:442" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="476:487" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="504:510" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="558:569" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="596:602" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="635:646" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="665:671" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="720:731" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="762:768" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="807:818" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="840:846" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="904:915" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="952:958" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="998:1009" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1032:1038" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="1098:1109" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1148:1154" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/LifePayUserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/LifePayBillDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1504581099000" expanded="false" signature="338:349" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="366:372" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="420:431" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="458:464" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="498:509" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="526:532" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="580:591" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="618:624" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="658:669" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="686:692" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="740:751" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="778:784" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="818:829" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="846:852" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="900:911" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="938:944" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="977:988" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1007:1013" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="1062:1073" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1104:1110" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="1149:1160" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1182:1188" ph=" }" />
+            <marker date="1504581099000" expanded="false" signature="1246:1257" ph=" { " />
+            <marker date="1504581099000" expanded="false" signature="1294:1300" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/Base4ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/aspect/ExceptionHandleAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/exceptionhandle/ExceptionsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/webapp/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding>
+            <marker date="1504581609000" expanded="true" signature="90:3974" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="313:478" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="390:457" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="499:635" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="651:762" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="798:1235" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="970:1083" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="1104:1221" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="1256:1375" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="1594:1968" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="1756:1908" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="1991:2103" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2140:3261" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2298:2451" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2472:2617" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2638:2781" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2802:2944" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="2986:3091" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3142:3246" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3283:3401" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3426:3499" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3516:3648" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3665:3855" ph="..." />
+            <marker date="1504581609000" expanded="true" signature="3876:3963" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/dto/params/LifePayBillPDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/model/LifePayBillDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-common/src/main/java/com/rabbit/ssm/common/result/CommonErrorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-serviceImpl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <marker date="1504580714000" expanded="true" signature="89:786" ph="..." />
+            <marker date="1504580714000" expanded="true" signature="273:402" ph="..." />
+            <marker date="1504580714000" expanded="true" signature="577:775" ph="..." />
+            <marker date="1504580714000" expanded="true" signature="598:755" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <marker date="1504580487000" expanded="true" signature="89:956" ph="..." />
+            <marker date="1504580487000" expanded="true" signature="273:402" ph="..." />
+            <marker date="1504580487000" expanded="true" signature="574:945" ph="..." />
+            <marker date="1504580487000" expanded="true" signature="595:751" ph="..." />
+            <marker date="1504580487000" expanded="true" signature="772:925" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <marker date="1504578434000" expanded="true" signature="89:627" ph="..." />
+            <marker date="1504578434000" expanded="true" signature="273:402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/config/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <marker date="1504581882000" expanded="true" signature="185:291" ph="..." />
+            <marker date="1504581882000" expanded="true" signature="200:274" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="559" column="4" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/resources/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
+          <folding>
+            <marker date="1504756464000" expanded="true" signature="99:1677" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="988:1099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.5.2/jedis-2.5.2.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1503317580000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1503317580000" expanded="true" signature="291:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.5.2/jedis-2.5.2.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1504754768000" expanded="true" signature="89:845" ph="..." />
+            <marker date="1504754768000" expanded="true" signature="273:402" ph="..." />
+            <marker date="1504754768000" expanded="true" signature="630:832" ph="..." />
+            <marker date="1504754768000" expanded="true" signature="651:812" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/config/spring-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <marker date="1504756464000" expanded="true" signature="99:3230" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="663:2179" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="793:807" ph="com.mysql.jdbc.Driver" />
+            <marker date="1504756464000" expanded="true" signature="847:858" ph="jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf-8" />
+            <marker date="1504756464000" expanded="true" signature="903:915" ph="root" />
+            <marker date="1504756464000" expanded="true" signature="960:976" ph="zh593190" />
+            <marker date="1504756464000" expanded="true" signature="1056:1076" ph="3" />
+            <marker date="1504756464000" expanded="true" signature="1120:1136" ph="3" />
+            <marker date="1504756464000" expanded="true" signature="1182:1200" ph="20" />
+            <marker date="1504756464000" expanded="true" signature="1276:1292" ph="60000" />
+            <marker date="1504756464000" expanded="true" signature="1408:1446" ph="60000" />
+            <marker date="1504756464000" expanded="true" signature="1550:1585" ph="300000" />
+            <marker date="1504756464000" expanded="true" signature="1991:2069" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="2017:2067" ph="20" />
+            <marker date="1504756464000" expanded="true" signature="2314:2660" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="2769:2926" ph="..." />
+            <marker date="1504756464000" expanded="true" signature="2980:3130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/MBG.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1504760797000" expanded="true" signature="89:1139" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="273:402" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="562:1127" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="580:1114" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="601:1095" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="803:1073" ph="..." />
+            <marker date="1504760797000" expanded="true" signature="843:948" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/model/LifePayPowerUseRecordDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayPowerUseRecordDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/sqlmapping/LifePayPowerUseRecordDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="373" column="7" lean-forward="false" selection-start-line="373" selection-start-column="7" selection-end-line="373" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/Plugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <marker date="1488620464000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1488620464000" expanded="false" signature="149:551" ph="..." />
+            <marker date="1488620464000" expanded="true" signature="8658:8780" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="8763:8774" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/PluginAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1488620464000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1488620464000" expanded="false" signature="149:607" ph="..." />
+            <marker date="1488620464000" expanded="true" signature="780:787" ph="{}" />
+            <marker date="1488620464000" expanded="false" signature="820:831" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="851:857" ph=" }" />
+            <marker date="1488620464000" expanded="false" signature="902:913" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="936:942" ph=" }" />
+            <marker date="1488620464000" expanded="false" signature="981:992" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="1015:1021" ph=" }" />
+            <marker date="1488620464000" expanded="false" signature="1075:1086" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="1121:1127" ph=" }" />
+            <marker date="1488620464000" expanded="false" signature="1200:1211" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="1223:1229" ph=" }" />
+            <marker date="1488620464000" expanded="true" signature="1338:1366" ph="{...}" />
+            <marker date="1488620464000" expanded="false" signature="1437:1448" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="1460:1466" ph=" }" />
+            <marker date="1488620464000" expanded="true" signature="1573:1601" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="1731:1759" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="1897:1925" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2056:2084" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2223:2251" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2385:2413" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2555:2583" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2705:2733" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="2863:2891" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3015:3043" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3183:3211" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3359:3387" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3530:3558" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3709:3737" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="3871:3899" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4041:4069" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4209:4237" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4385:4413" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4553:4581" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4729:4757" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="4900:4928" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5079:5107" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5250:5278" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5429:5457" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5600:5628" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5779:5807" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="5953:5981" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="6135:6163" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="6280:6308" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="6422:6450" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="6640:6668" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="6867:6895" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7012:7040" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7162:7190" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7389:7417" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7539:7567" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7682:7710" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7826:7854" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="7973:8001" ph="{...}" />
+            <marker date="1488620464000" expanded="false" signature="8101:8112" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="8124:8130" ph=" }" />
+            <marker date="1488620464000" expanded="true" signature="8249:8277" ph="{...}" />
+            <marker date="1488620464000" expanded="false" signature="8375:8386" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="8398:8404" ph=" }" />
+            <marker date="1488620464000" expanded="true" signature="8511:8539" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="8658:8686" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="8814:8842" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="8967:8995" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9114:9142" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9267:9295" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9420:9448" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9576:9604" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9732:9760" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="9888:9916" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10047:10075" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10191:10219" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10350:10378" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10517:10545" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10612:10619" ph="{}" />
+            <marker date="1488620464000" expanded="true" signature="10734:10762" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="10877:10905" ph="{...}" />
+            <marker date="1488620464000" expanded="false" signature="11009:11020" ph=" { " />
+            <marker date="1488620464000" expanded="false" signature="11032:11038" ph=" }" />
+            <marker date="1488620464000" expanded="true" signature="11174:11202" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="11342:11370" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="11511:11539" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="11680:11708" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="11858:11886" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12039:12067" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12217:12245" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12395:12423" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12576:12604" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12757:12785" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="12910:12938" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="13071:13099" ph="{...}" />
+            <marker date="1488620464000" expanded="true" signature="13209:13237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/config/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="97" column="42" lean-forward="false" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <folding>
+            <marker date="1504835768000" expanded="true" signature="240:4940" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="306:359" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="440:4914" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="718:957" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="1017:1211" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="1239:1329" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="1530:2011" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="2100:2189" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="2204:2437" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="2551:2644" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="2761:3085" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="3208:3534" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="3651:3974" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="4124:4450" ph="..." />
+            <marker date="1504835768000" expanded="true" signature="4572:4898" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/sqlmapping/LifePayFamilyDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1243">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <marker date="1504835770000" expanded="true" signature="202:7272" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="286:545" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="579:1684" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="591:1675" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="664:1662" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="699:1645" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="760:1631" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="830:1613" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="853:1590" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="901:970" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1022:1110" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1163:1280" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1330:1566" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1481:1542" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1728:2841" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1740:2832" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1821:2819" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1856:2802" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1917:2788" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1987:2770" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2010:2747" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2058:2127" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2179:2267" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2320:2437" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2487:2723" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2638:2699" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2871:2930" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3055:3365" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3091:3116" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3216:3273" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3311:3353" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3460:3600" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3466:3589" ph="select from lifepay_family" />
+            <marker date="1504835770000" expanded="true" signature="3669:3763" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3675:3752" ph="delete from " />
+            <marker date="1504835770000" expanded="true" signature="3862:3997" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3868:3894" ph="delete from " />
+            <marker date="1504835770000" expanded="true" signature="3928:3985" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4080:4434" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4165:4212" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4526:5248" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4611:4658" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4742:4930" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4801:4839" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4880:4918" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4990:5236" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5068:5125" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5166:5224" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5374:5518" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5380:5415" ph="select count... lifepay_family" />
+            <marker date="1504835770000" expanded="true" signature="5449:5506" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5579:6115" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5615:6001" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5657:5726" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5775:5858" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5906:5990" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6036:6103" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6167:6502" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6173:6389" ph="update lifep... " />
+            <marker date="1504835770000" expanded="true" signature="6423:6490" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6606:6952" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6612:6941" ph="update lifep... " />
+            <marker date="1504835770000" expanded="true" signature="6642:6889" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6684:6760" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6801:6878" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7047:7262" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7053:7251" ph="update lifep... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/resources/sqlmapping/LifePayBillDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1510">
+          <caret line="179" column="11" lean-forward="true" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+          <folding>
+            <marker date="1504835770000" expanded="true" signature="200:9522" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="282:825" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="859:1964" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="871:1955" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="944:1942" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="979:1925" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1040:1911" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1110:1893" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1133:1870" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1181:1250" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1302:1390" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1443:1560" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1610:1846" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="1761:1822" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2008:3121" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2020:3112" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2101:3099" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2136:3082" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2197:3068" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2267:3050" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2290:3027" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2338:2407" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2459:2547" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2600:2717" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2767:3003" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="2918:2979" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3151:3252" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3375:3683" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3411:3436" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3534:3591" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3629:3671" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3778:3912" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3784:3901" ph="select from lifepay_bill" />
+            <marker date="1504835770000" expanded="true" signature="3981:4069" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="3987:4058" ph="delete from " />
+            <marker date="1504835770000" expanded="true" signature="4166:4299" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4172:4196" ph="delete from " />
+            <marker date="1504835770000" expanded="true" signature="4230:4287" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4380:4900" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4463:4510" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="4990:6304" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5073:5120" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5202:5652" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5258:5296" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5332:5364" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5400:5432" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5470:5504" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5540:5572" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5608:5640" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5712:6292" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5787:5845" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5881:5931" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="5967:6017" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6055:6108" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6144:6194" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6230:6280" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6428:6570" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6434:6467" ph="select count... lifepay_bill" />
+            <marker date="1504835770000" expanded="true" signature="6501:6558" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6631:7599" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6665:7485" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6705:6770" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6818:6902" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="6945:7015" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7058:7128" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7173:7248" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7291:7361" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7404:7474" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7520:7587" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7651:8196" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="7657:8083" ph="update lifep... " />
+            <marker date="1504835770000" expanded="true" signature="8117:8184" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8298:9022" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8304:9011" ph="update lifep... " />
+            <marker date="1504835770000" expanded="true" signature="8332:8963" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8373:8450" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8486:8549" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8585:8648" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8686:8754" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8790:8853" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="8889:8952" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="9115:9512" ph="..." />
+            <marker date="1504835770000" expanded="true" signature="9121:9501" ph="update lifep... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayFamilyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <marker date="1504835770000" expanded="false" signature="36:206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/model/LifePayFamilyDOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="369" column="40" lean-forward="true" selection-start-line="369" selection-start-column="40" selection-end-line="369" selection-end-column="40" />
+          <folding>
+            <marker date="1504835770000" expanded="false" signature="45:111" ph="..." />
+            <marker date="1504835770000" expanded="false" signature="300:311" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="352:358" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="414:425" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="460:466" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="504:515" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="536:542" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="589:600" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="625:631" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="691:697" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="742:753" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="773:779" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="818:829" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="856:862" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="889:1011" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1050:1226" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1276:1352" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1378:1471" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1527:9873" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1612:1695" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="1729:1744" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1771:1781" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1830:1845" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1861:1871" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1917:1932" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1948:1958" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="2014:2210" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2297:2503" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2606:2849" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2895:2989" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3038:3136" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3196:3303" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3366:3474" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3538:3645" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3718:3826" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3887:3994" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4064:4172" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4234:4343" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4408:4521" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4598:4720" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4800:4926" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4979:5080" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5136:5241" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5307:5428" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5497:5619" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5689:5810" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5889:6011" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6078:6199" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6275:6397" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6460:6584" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6650:6778" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6846:6969" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7040:7167" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7249:7385" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7470:7610" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7662:7763" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7818:7923" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7986:8106" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8172:8293" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8360:8480" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8556:8677" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8741:8861" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8934:9055" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9120:9242" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9310:9436" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9513:9648" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9728:9867" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9934:10004" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="9965:9980" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="9988:9998" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="10040:12153" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="10365:10380" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10397:10407" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10441:10456" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10469:10479" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10519:10534" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10553:10563" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10599:10614" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10629:10639" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10679:10694" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10713:10723" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10764:10779" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10799:10809" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10847:10862" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10879:10889" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="10929:10944" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="10963:10973" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="11021:11163" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11245:11552" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="11613:11628" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="11657:11667" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="11769:11999" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12081:12147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1504835770000" expanded="true" signature="36:202" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/model/LifePayRecordDOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <marker date="1504835770000" expanded="false" signature="45:111" ph="..." />
+            <marker date="1504835770000" expanded="false" signature="300:311" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="352:358" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="414:425" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="460:466" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="504:515" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="536:542" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="589:600" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="625:631" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="691:697" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="742:753" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="773:779" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="818:829" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="856:862" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="889:1011" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1050:1226" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1276:1352" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1378:1471" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1527:15643" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1612:1695" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="1729:1744" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1771:1781" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1830:1845" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1861:1871" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1917:1932" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1948:1958" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="2014:2210" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2297:2503" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2606:2849" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2895:2989" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3038:3136" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3196:3303" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3366:3474" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3538:3645" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3718:3826" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3887:3994" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4064:4172" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4234:4343" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4408:4521" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4598:4720" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4800:4926" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4978:5079" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5134:5239" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5302:5422" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5488:5609" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5676:5796" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5872:5993" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6057:6177" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6250:6371" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6436:6558" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6626:6752" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6829:6964" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7044:7183" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7230:7325" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7375:7474" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7534:7643" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7706:7816" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7880:7989" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8062:8172" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8233:8342" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8412:8522" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8584:8695" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8760:8875" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8951:9075" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9154:9282" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9331:9428" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9480:9581" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9644:9757" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9823:9937" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10004:10117" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10193:10307" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10371:10484" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10557:10671" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10736:10851" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10919:11038" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11118:11246" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11329:11461" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11508:11603" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11653:11752" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11812:11921" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11984:12094" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12158:12267" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12340:12450" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12511:12620" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12690:12800" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12862:12973" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13038:13153" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13229:13353" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13432:13560" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13606:13700" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13749:13847" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13907:14014" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14077:14185" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14249:14356" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14429:14537" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14598:14705" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14775:14883" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14945:15054" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15119:15232" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15309:15431" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15511:15637" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15704:15774" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="15735:15750" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="15758:15768" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="15810:17923" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="16135:16150" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16167:16177" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16211:16226" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16239:16249" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16289:16304" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16323:16333" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16369:16384" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16399:16409" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16449:16464" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16483:16493" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16534:16549" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16569:16579" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16617:16632" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16649:16659" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="16699:16714" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="16733:16743" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="16791:16933" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17015:17322" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="17383:17398" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="17427:17437" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="17539:17769" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17851:17917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayRecordDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <marker date="1504842893000" expanded="true" signature="36:256" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/domain/model/LifePayBillDOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="528" column="32" lean-forward="false" selection-start-line="528" selection-start-column="24" selection-end-line="528" selection-end-column="32" />
+          <folding>
+            <marker date="1504835770000" expanded="false" signature="45:111" ph="..." />
+            <marker date="1504835770000" expanded="false" signature="296:307" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="348:354" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="410:421" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="456:462" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="500:511" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="532:538" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="585:596" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="621:627" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="660:671" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="687:693" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="738:749" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="769:775" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="814:825" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="852:858" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="885:1007" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1046:1222" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1272:1348" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1374:1467" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1523:17692" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="1608:1691" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="1725:1740" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1767:1777" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1826:1841" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1857:1867" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="1913:1928" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="1944:1954" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="2010:2206" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2293:2499" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2602:2845" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="2889:2981" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3028:3124" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3182:3285" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3346:3450" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3512:3615" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3686:3790" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="3849:3952" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4020:4124" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4184:4289" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4352:4461" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4536:4654" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4732:4854" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="4906:5007" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5062:5167" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5230:5350" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5416:5537" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5604:5724" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5800:5921" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="5985:6105" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6178:6299" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6364:6486" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6554:6680" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6757:6892" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="6972:7111" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7158:7253" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7303:7402" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7462:7571" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7634:7744" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7808:7917" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="7990:8100" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8161:8270" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8340:8450" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8512:8623" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8688:8803" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="8879:9003" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9082:9210" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9257:9352" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9402:9501" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9561:9670" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9733:9843" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="9907:10016" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10089:10199" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10260:10369" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10439:10549" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10611:10722" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10787:10902" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="10978:11102" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11181:11309" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11358:11455" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11507:11608" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11671:11784" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="11850:11964" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12031:12144" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12220:12334" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12398:12511" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12584:12698" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12763:12878" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="12946:13065" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13145:13273" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13356:13488" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13535:13630" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13680:13779" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="13839:13948" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14011:14121" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14185:14294" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14367:14477" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14538:14647" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14717:14827" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="14889:15000" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15065:15180" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15256:15380" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15459:15587" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15634:15729" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15779:15878" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="15938:16047" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16110:16220" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16284:16393" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16466:16576" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16637:16746" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16816:16926" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="16988:17099" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17164:17279" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17355:17479" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17558:17686" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="17753:17823" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="17784:17799" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="17807:17817" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="17859:19972" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="18184:18199" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18216:18226" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18260:18275" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18288:18298" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18338:18353" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18372:18382" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18418:18433" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18448:18458" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18498:18513" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18532:18542" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18583:18598" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18618:18628" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18666:18681" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18698:18708" ph=" }" />
+            <marker date="1504835770000" expanded="false" signature="18748:18763" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="18782:18792" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="18840:18982" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="19064:19371" ph="{...}" />
+            <marker date="1504835770000" expanded="false" signature="19432:19447" ph=" { " />
+            <marker date="1504835770000" expanded="false" signature="19476:19486" ph=" }" />
+            <marker date="1504835770000" expanded="true" signature="19588:19818" ph="{...}" />
+            <marker date="1504835770000" expanded="true" signature="19900:19966" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayRecordlServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="82" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayBillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <marker date="1504844770000" expanded="true" signature="41:195" ph="..." />
+            <marker date="1504844770000" expanded="true" signature="240:265" ph="/**...*/" />
+            <marker date="1504844770000" expanded="true" signature="350:450" ph="/**...*/" />
+            <marker date="1504844770000" expanded="true" signature="529:610" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-dao/src/main/java/com/rabbit/ssm/dao/LifePayBillDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1504844770000" expanded="true" signature="36:251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/resources/config/spring-cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding>
+            <marker date="1504758819000" expanded="true" signature="97:2420" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="577:716" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="676:702" ph="300" />
+            <marker date="1504758819000" expanded="true" signature="805:876" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="980:1392" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="1083:1108" ph="10.68.97.61" />
+            <marker date="1504758819000" expanded="true" signature="1149:1170" ph="6379" />
+            <marker date="1504758819000" expanded="true" signature="1215:1240" ph="1" />
+            <marker date="1504758819000" expanded="true" signature="1284:1287" ph="2000" />
+            <marker date="1504758819000" expanded="true" signature="1284:1308" ph="2000" />
+            <marker date="1504758819000" expanded="true" signature="1353:1378" ph="${maven.redis.connect.passward}" />
+            <marker date="1504758819000" expanded="true" signature="1469:1833" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="1512:1534" ph="500" />
+            <marker date="1504758819000" expanded="true" signature="1590:1611" ph="200" />
+            <marker date="1504758819000" expanded="true" signature="1675:1702" ph="10000" />
+            <marker date="1504758819000" expanded="true" signature="1771:1797" ph="true" />
+            <marker date="1504758819000" expanded="true" signature="1899:2331" ph="..." />
+            <marker date="1504758819000" expanded="true" signature="2002:2027" ph="10.68.97.61" />
+            <marker date="1504758819000" expanded="true" signature="2073:2094" ph="6379" />
+            <marker date="1504758819000" expanded="true" signature="2151:2175" ph="2000" />
+            <marker date="1504758819000" expanded="true" signature="2221:2246" ph="${maven.redis.connect.passward}" />
+            <marker date="1504758819000" expanded="true" signature="2292:2317" ph="1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/resources/cache.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding>
+            <marker date="1504760506000" expanded="true" signature="89:11566" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="448:658" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="676:1123" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="1139:3521" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="1157:2483" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="1210:2464" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="1756:1831" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="2501:3505" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="2550:3486" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="2739:2744" ph="&amp;" />
+            <marker date="1504760506000" expanded="true" signature="2759:2764" ph="&amp;" />
+            <marker date="1504760506000" expanded="true" signature="2971:3132" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="3575:3955" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="3598:3927" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="3623:3903" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="3976:11320" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="4020:4220" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="4242:4402" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="4424:4598" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="4640:4790" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="4838:5028" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5073:5259" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5308:5696" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5456:5635" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5484:5609" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5739:5885" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="5935:6120" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6164:6289" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6311:6444" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6466:6588" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6610:6730" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6752:6874" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="6896:7017" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7038:7161" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7183:7304" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7326:7447" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7469:7593" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7651:7823" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="7868:8048" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8070:8254" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8307:9572" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8486:9550" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8514:8657" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8685:8829" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="8857:9002" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9030:9178" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9206:9352" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9380:9524" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9622:10888" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9803:10866" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="9831:9974" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10002:10147" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10175:10331" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10359:10507" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10535:10679" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10707:10840" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="10910:11057" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="11104:11299" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="11333:11555" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="11353:11542" ph="..." />
+            <marker date="1504760506000" expanded="true" signature="11376:11521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-web/src/main/java/com/rabbit/ssm/controller/lifepay/LifePayBill4ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="47" column="90" lean-forward="false" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
+          <folding>
+            <marker date="1504844770000" expanded="false" signature="52:671" ph="..." />
+            <marker date="1504844770000" expanded="true" signature="673:720" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="821:962" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="1059:1173" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="1179:1322" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="1421:1537" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="1544:1687" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="1786:1902" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="1908:2048" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="2144:2265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-serviceImpl/src/main/java/com/rabbit/ssm/service/impl/LifePayBillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+          <folding>
+            <marker date="1504844770000" expanded="true" signature="46:784" ph="..." />
+            <marker date="1504844770000" expanded="true" signature="786:809" ph="@{...}" />
+            <marker date="1504844770000" expanded="true" signature="1038:1709" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="1790:2329" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="2410:3242" ph="{...}" />
+            <marker date="1504844770000" expanded="true" signature="3336:4598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fthDay-service/src/main/java/com/rabbit/ssm/service/LifePayRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>fthDay-web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20258273" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (fthDay-web)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20258273" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|fthDay-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20258273" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.28</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20258273" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package" />
+  </component>
+</project>
