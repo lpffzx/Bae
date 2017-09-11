@@ -1,11 +1,10 @@
-package com.rabbit.ssm.dao;
+package com.rabbit.ssm.dao.mybatis;
 
-import com.rabbit.ssm.domain.model.LifePayRecordDO;
-import com.rabbit.ssm.domain.model.LifePayRecordDOExample;
+import com.rabbit.ssm.domain.model.mybatis.LifePayRecordDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayRecordDOExample;
+import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 public interface LifePayRecordDAO {

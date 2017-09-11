@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.rabbit.ssm.dao.LifePayBillDAO">
-  <resultMap id="BaseResultMap" type="com.rabbit.ssm.domain.model.LifePayBillDO">
+<mapper namespace="com.rabbit.ssm.dao.mybatis.LifePayBillDAO">
+  <resultMap id="BaseResultMap" type="com.rabbit.ssm.domain.model.mybatis.LifePayBillDO">
     <id column="bill_id" jdbcType="INTEGER" property="billId" />
     <result column="last_modify_date" jdbcType="TIMESTAMP" property="lastModifyDate" />
     <result column="power_bill" jdbcType="DOUBLE" property="powerBill" />
@@ -71,7 +71,7 @@
   <sql id="Base_Column_List">
     bill_id, last_modify_date, power_bill, power_rate, record_month, water_bill, water_rate
   </sql>
-  <select id="selectByExample" parameterType="com.rabbit.ssm.domain.model.LifePayBillDOExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDOExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -95,13 +95,13 @@
     delete from lifepay_bill
     where bill_id = #{billId,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.rabbit.ssm.domain.model.LifePayBillDOExample">
+  <delete id="deleteByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDOExample">
     delete from lifepay_bill
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.rabbit.ssm.domain.model.LifePayBillDO">
+  <insert id="insert" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDO">
     <selectKey keyProperty="billId" order="BEFORE" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -112,7 +112,7 @@
       #{powerRate,jdbcType=DOUBLE}, #{recordMonth,jdbcType=INTEGER}, #{waterBill,jdbcType=DOUBLE}, 
       #{waterRate,jdbcType=DOUBLE})
   </insert>
-  <insert id="insertSelective" parameterType="com.rabbit.ssm.domain.model.LifePayBillDO">
+  <insert id="insertSelective" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDO">
     <selectKey keyProperty="billId" order="BEFORE" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -160,7 +160,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.rabbit.ssm.domain.model.LifePayBillDOExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDOExample" resultType="java.lang.Long">
     select count(*) from lifepay_bill
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -208,7 +208,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.rabbit.ssm.domain.model.LifePayBillDO">
+  <update id="updateByPrimaryKeySelective" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDO">
     update lifepay_bill
     <set>
       <if test="lastModifyDate != null">
@@ -232,7 +232,7 @@
     </set>
     where bill_id = #{billId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.rabbit.ssm.domain.model.LifePayBillDO">
+  <update id="updateByPrimaryKey" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayBillDO">
     update lifepay_bill
     set last_modify_date = #{lastModifyDate,jdbcType=TIMESTAMP},
       power_bill = #{powerBill,jdbcType=DOUBLE},

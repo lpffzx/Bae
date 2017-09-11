@@ -1,10 +1,13 @@
-package com.rabbit.ssm.dao;
+package com.rabbit.ssm.dao.mybatis;
 
-import com.rabbit.ssm.domain.model.LifePayUserDO;
-import com.rabbit.ssm.domain.model.LifePayUserDOExample;
-import java.util.List;
+import com.rabbit.ssm.domain.model.mybatis.LifePayUserDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayUserDOExample;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
+
+@Component
 public interface LifePayUserDAO {
     long countByExample(LifePayUserDOExample example);
 
@@ -19,6 +22,8 @@ public interface LifePayUserDAO {
     List<LifePayUserDO> selectByExample(LifePayUserDOExample example);
 
     LifePayUserDO selectByPrimaryKey(Integer usrId);
+
+    List<LifePayUserDO> selectByFamilyId(Integer familyId);
 
     int updateByExampleSelective(@Param("record") LifePayUserDO record, @Param("example") LifePayUserDOExample example);
 

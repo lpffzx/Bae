@@ -1,8 +1,9 @@
-package com.rabbit.ssm.domain.model;
+package com.rabbit.ssm.domain.model.mybatis;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class LifePayUserDO {
+public class LifePayUserDO implements Serializable {
     private Integer usrId;
 
     private Date lastModifyDate;
@@ -10,6 +11,16 @@ public class LifePayUserDO {
     private String name;
 
     private Integer familyId;
+
+    private LifePayFamilyDO family;
+
+    public LifePayFamilyDO getFamily() {
+        return family;
+    }
+
+    public void setFamily(LifePayFamilyDO family) {
+        this.family = family;
+    }
 
     public Integer getUsrId() {
         return usrId;

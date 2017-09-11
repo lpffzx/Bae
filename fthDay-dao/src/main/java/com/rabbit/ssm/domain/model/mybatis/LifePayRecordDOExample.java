@@ -1,4 +1,4 @@
-package com.rabbit.ssm.domain.model;
+package com.rabbit.ssm.domain.model.mybatis;
 
 import java.util.ArrayList;
 import java.util.Date;

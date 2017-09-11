@@ -1,13 +1,15 @@
-package com.rabbit.ssm.dao;
+package com.rabbit.ssm.dao.mybatis;
 
-import com.rabbit.ssm.domain.model.LifePayBillDO;
-import com.rabbit.ssm.domain.model.LifePayBillDOExample;
-import java.util.List;
+import com.rabbit.ssm.domain.model.mybatis.LifePayBillDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayBillDOExample;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public interface LifePayBillDAO {
+
     long countByExample(LifePayBillDOExample example);
 
     int deleteByExample(LifePayBillDOExample example);

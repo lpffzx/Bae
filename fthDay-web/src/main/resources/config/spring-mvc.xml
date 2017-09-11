@@ -9,10 +9,48 @@
             location="classpath*:cache.properties,classpath*:datasource.properties,classpath*:MBG.properties"/>
     <!--<context:annotation-config/>-->
     <context:component-scan base-package="com.rabbit.ssm"/>
-    <jpa:repositories base-package="com.rabbit.ssm.dao"/><!--启用spring data jpa便于自动创建DAO实现-->
-    <mvc:annotation-driven/><!--自动注入DefaultAnnotationHandlerMapping及AnnotationMethodHandlerAdapter这两个bean-->
-    <aop:aspectj-autoproxy proxy-target-class="true"/><!--切面-->
-    <mvc:default-servlet-handler/><!--将静态web资源交给DefaultServletHttpRequestHandler处理，避免静态资源被DispatcherServlet拦截-->
+    <!--启用spring data jpa便于自动创建DAO实现-->
+    <jpa:repositories base-package="com.rabbit.ssm.dao"/>
+    <!--自动注入DefaultAnnotationHandlerMapping及AnnotationMethodHandlerAdapter这两个bean-->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <!-- 配置Fastjson支持 -->
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>text/html;charset=UTF-8</value>
+                        <value>application/json</value>
+                    </list>
+                </property>
+                <property name="fastJsonConfig" ref="jsonConfig"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <bean id="jsonConfig" class="com.alibaba.fastjson.support.config.FastJsonConfig">
+        <property name="charset" value="UTF-8"/>
+        <property name="dateFormat" value="yyyy-MM-dd HH:mm:ss"/>
+        <property name="serializeFilters" ref="serializeFilter"/>
+        <property name="features">
+            <list>
+                <value>AllowArbitraryCommas</value>
+                <value>AllowUnQuotedFieldNames</value>
+            </list>
+        </property>
+        <property name="serializerFeatures">
+            <list>
+                <value>WriteNullListAsEmpty</value>
+                <value>WriteMapNullValue</value>
+                <!--<value>DisableCircularReferenceDetect</value>-->
+            </list>
+        </property>
+    </bean>
+
+
+    <!--切面-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <!--将静态web资源交给DefaultServletHttpRequestHandler处理，避免静态资源被DispatcherServlet拦截-->
+    <mvc:default-servlet-handler/>
 
     <import resource="spring-datasource.xml"/>
     <import resource="spring-cache.xml"/>

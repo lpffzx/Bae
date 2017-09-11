@@ -1,17 +1,30 @@
-package com.rabbit.ssm.domain.model;
+package com.rabbit.ssm.domain.model.mybatis;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class LifePayPowerUseRecordDO {
+public class LifePayRecordDO implements Serializable {
     private Integer recordId;
 
     private Date lastModifyDate;
 
-    private Double powerUse;
+    private Double powerCost;
 
     private Integer recordMonth;
 
+    private Double waterCost;
+
     private Integer familyId;
+
+    private LifePayFamilyDO family;
+
+    public LifePayFamilyDO getFamily() {
+        return family;
+    }
+
+    public void setFamily(LifePayFamilyDO family) {
+        this.family = family;
+    }
 
     public Integer getRecordId() {
         return recordId;
@@ -29,12 +42,12 @@ public class LifePayPowerUseRecordDO {
         this.lastModifyDate = lastModifyDate;
     }
 
-    public Double getPowerUse() {
-        return powerUse;
+    public Double getPowerCost() {
+        return powerCost;
     }
 
-    public void setPowerUse(Double powerUse) {
-        this.powerUse = powerUse;
+    public void setPowerCost(Double powerCost) {
+        this.powerCost = powerCost;
     }
 
     public Integer getRecordMonth() {
@@ -43,6 +56,14 @@ public class LifePayPowerUseRecordDO {
 
     public void setRecordMonth(Integer recordMonth) {
         this.recordMonth = recordMonth;
+    }
+
+    public Double getWaterCost() {
+        return waterCost;
+    }
+
+    public void setWaterCost(Double waterCost) {
+        this.waterCost = waterCost;
     }
 
     public Integer getFamilyId() {

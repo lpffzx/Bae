@@ -10,6 +10,17 @@
 
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
         <property name="connectionFactory" ref="redisCF"/>
+        <property name="defaultSerializer">
+            <bean class="com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer"/>
+        </property>
+        <!-- 单独设置 keySerializer -->
+        <property name="keySerializer">
+            <bean class="com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer"/>
+        </property>
+        <!-- 单独设置 valueSerializer -->
+        <property name="valueSerializer">
+            <bean class="com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer"/>
+        </property>
     </bean>
 
     <bean id="redisCF" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">

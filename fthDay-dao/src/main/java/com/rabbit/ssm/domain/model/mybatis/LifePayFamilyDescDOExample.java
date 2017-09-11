@@ -1,17 +1,17 @@
-package com.rabbit.ssm.domain.model;
+package com.rabbit.ssm.domain.model.mybatis;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class LifePayPowerUseRecordDOExample {
+public class LifePayFamilyDescDOExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public LifePayPowerUseRecordDOExample() {
+    public LifePayFamilyDescDOExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -105,63 +105,133 @@ public class LifePayPowerUseRecordDOExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andRecordIdIsNull() {
-            addCriterion("record_id is null");
+        public Criteria andDescIdIsNull() {
+            addCriterion("desc_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdIsNotNull() {
-            addCriterion("record_id is not null");
+        public Criteria andDescIdIsNotNull() {
+            addCriterion("desc_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdEqualTo(Integer value) {
-            addCriterion("record_id =", value, "recordId");
+        public Criteria andDescIdEqualTo(Integer value) {
+            addCriterion("desc_id =", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotEqualTo(Integer value) {
-            addCriterion("record_id <>", value, "recordId");
+        public Criteria andDescIdNotEqualTo(Integer value) {
+            addCriterion("desc_id <>", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdGreaterThan(Integer value) {
-            addCriterion("record_id >", value, "recordId");
+        public Criteria andDescIdGreaterThan(Integer value) {
+            addCriterion("desc_id >", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("record_id >=", value, "recordId");
+        public Criteria andDescIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("desc_id >=", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdLessThan(Integer value) {
-            addCriterion("record_id <", value, "recordId");
+        public Criteria andDescIdLessThan(Integer value) {
+            addCriterion("desc_id <", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdLessThanOrEqualTo(Integer value) {
-            addCriterion("record_id <=", value, "recordId");
+        public Criteria andDescIdLessThanOrEqualTo(Integer value) {
+            addCriterion("desc_id <=", value, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdIn(List<Integer> values) {
-            addCriterion("record_id in", values, "recordId");
+        public Criteria andDescIdIn(List<Integer> values) {
+            addCriterion("desc_id in", values, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotIn(List<Integer> values) {
-            addCriterion("record_id not in", values, "recordId");
+        public Criteria andDescIdNotIn(List<Integer> values) {
+            addCriterion("desc_id not in", values, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdBetween(Integer value1, Integer value2) {
-            addCriterion("record_id between", value1, value2, "recordId");
+        public Criteria andDescIdBetween(Integer value1, Integer value2) {
+            addCriterion("desc_id between", value1, value2, "descId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("record_id not between", value1, value2, "recordId");
+        public Criteria andDescIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("desc_id not between", value1, value2, "descId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententIsNull() {
+            addCriterion("centent is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententIsNotNull() {
+            addCriterion("centent is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententEqualTo(String value) {
+            addCriterion("centent =", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententNotEqualTo(String value) {
+            addCriterion("centent <>", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententGreaterThan(String value) {
+            addCriterion("centent >", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententGreaterThanOrEqualTo(String value) {
+            addCriterion("centent >=", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententLessThan(String value) {
+            addCriterion("centent <", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententLessThanOrEqualTo(String value) {
+            addCriterion("centent <=", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententLike(String value) {
+            addCriterion("centent like", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententNotLike(String value) {
+            addCriterion("centent not like", value, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententIn(List<String> values) {
+            addCriterion("centent in", values, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententNotIn(List<String> values) {
+            addCriterion("centent not in", values, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententBetween(String value1, String value2) {
+            addCriterion("centent between", value1, value2, "centent");
+            return (Criteria) this;
+        }
+
+        public Criteria andCententNotBetween(String value1, String value2) {
+            addCriterion("centent not between", value1, value2, "centent");
             return (Criteria) this;
         }
 
@@ -222,126 +292,6 @@ public class LifePayPowerUseRecordDOExample {
 
         public Criteria andLastModifyDateNotBetween(Date value1, Date value2) {
             addCriterion("last_modify_date not between", value1, value2, "lastModifyDate");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseIsNull() {
-            addCriterion("power_use is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseIsNotNull() {
-            addCriterion("power_use is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseEqualTo(Double value) {
-            addCriterion("power_use =", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseNotEqualTo(Double value) {
-            addCriterion("power_use <>", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseGreaterThan(Double value) {
-            addCriterion("power_use >", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseGreaterThanOrEqualTo(Double value) {
-            addCriterion("power_use >=", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseLessThan(Double value) {
-            addCriterion("power_use <", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseLessThanOrEqualTo(Double value) {
-            addCriterion("power_use <=", value, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseIn(List<Double> values) {
-            addCriterion("power_use in", values, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseNotIn(List<Double> values) {
-            addCriterion("power_use not in", values, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseBetween(Double value1, Double value2) {
-            addCriterion("power_use between", value1, value2, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andPowerUseNotBetween(Double value1, Double value2) {
-            addCriterion("power_use not between", value1, value2, "powerUse");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthIsNull() {
-            addCriterion("record_month is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthIsNotNull() {
-            addCriterion("record_month is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthEqualTo(Integer value) {
-            addCriterion("record_month =", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthNotEqualTo(Integer value) {
-            addCriterion("record_month <>", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthGreaterThan(Integer value) {
-            addCriterion("record_month >", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthGreaterThanOrEqualTo(Integer value) {
-            addCriterion("record_month >=", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthLessThan(Integer value) {
-            addCriterion("record_month <", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthLessThanOrEqualTo(Integer value) {
-            addCriterion("record_month <=", value, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthIn(List<Integer> values) {
-            addCriterion("record_month in", values, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthNotIn(List<Integer> values) {
-            addCriterion("record_month not in", values, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthBetween(Integer value1, Integer value2) {
-            addCriterion("record_month between", value1, value2, "recordMonth");
-            return (Criteria) this;
-        }
-
-        public Criteria andRecordMonthNotBetween(Integer value1, Integer value2) {
-            addCriterion("record_month not between", value1, value2, "recordMonth");
             return (Criteria) this;
         }
 

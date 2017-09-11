@@ -1,11 +1,17 @@
-package com.rabbit.ssm.dao;
+package com.rabbit.ssm.dao.mybatis;
 
-import com.rabbit.ssm.domain.model.LifePayFamilyDO;
-import com.rabbit.ssm.domain.model.LifePayFamilyDOExample;
-import java.util.List;
+import com.rabbit.ssm.domain.model.mybatis.LifePayFamilyDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayFamilyDOExample;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
+
+@Component
 public interface LifePayFamilyDAO {
+
+    LifePayFamilyDO findByFamilyId(Integer familyId);
+
     long countByExample(LifePayFamilyDOExample example);
 
     int deleteByExample(LifePayFamilyDOExample example);

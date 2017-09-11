@@ -1,7 +1,7 @@
 package com.rabbit.ssm.domain.dto.params;
 
 
-import com.rabbit.ssm.domain.model.LifePayBillDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayBillDO;
 
 import java.io.Serializable;
 

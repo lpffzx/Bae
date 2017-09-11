@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.rabbit.ssm.dao.LifePayUserDAO">
-  <resultMap id="BaseResultMap" type="com.rabbit.ssm.domain.model.LifePayUserDO">
+<mapper namespace="com.rabbit.ssm.dao.mybatis.LifePayUserDAO">
+  <resultMap id="BaseResultMap" type="com.rabbit.ssm.domain.model.mybatis.LifePayUserDO">
     <id column="usr_id" jdbcType="INTEGER" property="usrId" />
     <result column="last_modify_date" jdbcType="TIMESTAMP" property="lastModifyDate" />
     <result column="name" jdbcType="VARCHAR" property="name" />
@@ -68,7 +68,7 @@
   <sql id="Base_Column_List">
     usr_id, last_modify_date, name, family_id
   </sql>
-  <select id="selectByExample" parameterType="com.rabbit.ssm.domain.model.LifePayUserDOExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDOExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -88,17 +88,23 @@
     from lifepay_user
     where usr_id = #{usrId,jdbcType=INTEGER}
   </select>
+  <select id="selectByFamilyId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from lifepay_user
+    where family_id = #{familyId,jdbcType=INTEGER}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from lifepay_user
     where usr_id = #{usrId,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.rabbit.ssm.domain.model.LifePayUserDOExample">
+  <delete id="deleteByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDOExample">
     delete from lifepay_user
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.rabbit.ssm.domain.model.LifePayUserDO">
+  <insert id="insert" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDO">
     <selectKey keyProperty="usrId" order="BEFORE" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -107,7 +113,7 @@
     values (#{usrId,jdbcType=INTEGER}, #{lastModifyDate,jdbcType=TIMESTAMP}, #{name,jdbcType=VARCHAR}, 
       #{familyId,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.rabbit.ssm.domain.model.LifePayUserDO">
+  <insert id="insertSelective" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDO">
     <selectKey keyProperty="usrId" order="BEFORE" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -137,7 +143,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.rabbit.ssm.domain.model.LifePayUserDOExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDOExample" resultType="java.lang.Long">
     select count(*) from lifepay_user
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -173,7 +179,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.rabbit.ssm.domain.model.LifePayUserDO">
+  <update id="updateByPrimaryKeySelective" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDO">
     update lifepay_user
     <set>
       <if test="lastModifyDate != null">
@@ -188,7 +194,7 @@
     </set>
     where usr_id = #{usrId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.rabbit.ssm.domain.model.LifePayUserDO">
+  <update id="updateByPrimaryKey" parameterType="com.rabbit.ssm.domain.model.mybatis.LifePayUserDO">
     update lifepay_user
     set last_modify_date = #{lastModifyDate,jdbcType=TIMESTAMP},
       name = #{name,jdbcType=VARCHAR},

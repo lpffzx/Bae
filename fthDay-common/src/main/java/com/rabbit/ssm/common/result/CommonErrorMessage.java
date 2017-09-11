@@ -17,6 +17,7 @@ public class CommonErrorMessage {
     public static final CommonErrorMessage LIFEPAY_FAMLILY_COST_RECORD_FETCH_FAIL_ERR = new CommonErrorMessage("查询不到当月各家账单记录", -206);
     public static final CommonErrorMessage LIFEPAY_BILL_NOT_EXIST_ERR = new CommonErrorMessage("账单信息不存在", -207);
     public static final CommonErrorMessage LIFEPAY_BILL_UPDATE_ERR = new CommonErrorMessage("账单信息更新出错", -208);
+    public static final CommonErrorMessage LIFEPAY_FAMILY_INFO_NOT_EXIST_ERR = new CommonErrorMessage("找不到指定家庭信息", -209);
 
 
     private String msg;

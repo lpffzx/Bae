@@ -31,8 +31,7 @@
         </javaTypeResolver>
 
 
-        <!--由于dao层和domain层分module管理所以将javaModelGenerator的targetProject设成不存在的值来阻止自动生成domain模型-->
-        <javaModelGenerator targetPackage="com.rabbit.ssm.domain.model" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.rabbit.ssm.domain.model.mybatis" targetProject="src/main/java">
             <!-- 是否允许子包，即targetPackage.schemaName.tableName -->
             <property name="enableSubPackages" value="true"/>
             <!-- 是否对model添加 构造函数 -->
@@ -55,7 +54,7 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <table schema="mydb" tableName="lifepay_bill" domainObjectName="LifePayBillDO" mapperName="LifePayBillDAO"
+        <table schema="mydb_bk" tableName="lifepay_bill" domainObjectName="LifePayBillDO" mapperName="LifePayBillDAO"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
                enableCountByExample="true"
@@ -64,7 +63,8 @@
             <generatedKey column="bill_id" sqlStatement="MySql"/>
         </table>
 
-        <table schema="mydb" tableName="lifepay_family" domainObjectName="LifePayFamilyDO" mapperName="LifePayFamilyDAO"
+        <table schema="mydb_bk" tableName="lifepay_family" domainObjectName="LifePayFamilyDO"
+               mapperName="LifePayFamilyDAO"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
                enableCountByExample="true"
@@ -73,7 +73,7 @@
             <generatedKey column="family_id" sqlStatement="MySql"/>
         </table>
 
-        <table schema="mydb" tableName="lifepay_user" domainObjectName="LifePayUserDO" mapperName="LifePayUserDAO"
+        <table schema="mydb_bk" tableName="lifepay_user" domainObjectName="LifePayUserDO" mapperName="LifePayUserDAO"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
                enableCountByExample="true"
@@ -83,7 +83,8 @@
         </table>
 
 
-        <table schema="mydb" tableName="lifepay_power_use_record" domainObjectName="LifePayPowerUseRecordDO" mapperName="LifePayPowerUseRecordDAO"
+        <table schema="mydb_bk" tableName="lifepay_power_use_record" domainObjectName="LifePayPowerUseRecordDO"
+               mapperName="LifePayPowerUseRecordDAO"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
                enableCountByExample="true"
@@ -91,13 +92,24 @@
             <property name="useActualColumnNames" value="false"/>
             <generatedKey column="record_id" sqlStatement="MySql"/>
         </table>
-        <table schema="mydb" tableName="lifepay_record" domainObjectName="LifePayRecordDO" mapperName="LifePayRecordDAO"
+        <table schema="mydb_bk" tableName="lifepay_record" domainObjectName="LifePayRecordDO"
+               mapperName="LifePayRecordDAO"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
                enableCountByExample="true"
                enableSelectByExample="true">
             <property name="useActualColumnNames" value="false"/>
             <generatedKey column="record_id" sqlStatement="MySql"/>
+        </table>
+
+        <table schema="mydb_bk" tableName="lifepay_family_desc" domainObjectName="LifePayFamilyDescDO"
+               mapperName="LifePayFamilyDescDAO"
+               enableUpdateByExample="true"
+               enableDeleteByExample="true"
+               enableCountByExample="true"
+               enableSelectByExample="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="desc_id" sqlStatement="MySql"/>
         </table>
 
     </context>

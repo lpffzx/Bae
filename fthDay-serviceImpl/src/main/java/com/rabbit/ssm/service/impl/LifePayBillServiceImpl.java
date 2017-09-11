@@ -5,26 +5,25 @@ import com.rabbit.ssm.common.constant.Constants;
 import com.rabbit.ssm.common.exception.CommonException;
 import com.rabbit.ssm.common.result.CommonErrorMessage;
 import com.rabbit.ssm.common.util.AssertUtils;
-import com.rabbit.ssm.dao.LifePayBillDAO;
+import com.rabbit.ssm.dao.mybatis.LifePayBillDAO;
 import com.rabbit.ssm.domain.dto.LifePayBillDTO;
 import com.rabbit.ssm.domain.dto.params.LifePayBillPDTO;
-import com.rabbit.ssm.domain.model.LifePayBillDO;
-import com.rabbit.ssm.domain.model.LifePayBillDOExample;
+import com.rabbit.ssm.domain.model.mybatis.LifePayBillDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayBillDOExample;
 import com.rabbit.ssm.service.LifePayBillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import redis.clients.jedis.Jedis;
 
 import java.util.List;
 
 @Service
-@Transactional
+@Transactional(transactionManager = "tm4mybatis")
 public class LifePayBillServiceImpl implements LifePayBillService {
     @Autowired
     LifePayBillDAO lpbDAO;
-    @Autowired
-    Jedis jedis;
+//    @Autowired
+//    Jedis jedis;
 
     public LifePayBillDTO pullBill(LifePayBillPDTO paramsDTO) throws CommonException {
         if (null == paramsDTO) {

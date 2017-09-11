@@ -1,8 +1,9 @@
-package com.rabbit.ssm.domain.model;
+package com.rabbit.ssm.domain.model.mybatis;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class LifePayBillDO {
+public class LifePayBillDO implements Serializable {
     private Integer billId;
 
     private Date lastModifyDate;

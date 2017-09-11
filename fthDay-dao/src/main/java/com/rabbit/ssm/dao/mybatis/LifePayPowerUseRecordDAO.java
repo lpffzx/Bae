@@ -1,10 +1,12 @@
-package com.rabbit.ssm.dao;
+package com.rabbit.ssm.dao.mybatis;
 
-import com.rabbit.ssm.domain.model.LifePayPowerUseRecordDO;
-import com.rabbit.ssm.domain.model.LifePayPowerUseRecordDOExample;
+import com.rabbit.ssm.domain.model.mybatis.LifePayPowerUseRecordDO;
+import com.rabbit.ssm.domain.model.mybatis.LifePayPowerUseRecordDOExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface LifePayPowerUseRecordDAO {
     long countByExample(LifePayPowerUseRecordDOExample example);
 
