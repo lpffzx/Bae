@@ -42,50 +42,6 @@
         <property name="filters" value="stat"/>
     </bean>
 
-
-    <!--利用jpa生成自动生成表-->
-    <bean id="entityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="dataSource" ref="dataSource"/>
-        <property name="jpaVendorAdapter" ref="jpaVendorAdapter"/>
-        <property name="packagesToScan" value="com.rabbit.ssm.domain.model"/>
-    </bean>
-
-    <bean id="jpaVendorAdapter" class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-        <property name="database" value="MYSQL"/>
-        <property name="showSql" value="${maven.jpa.showSql}"/>
-        <property name="generateDdl" value="${maven.jpa.generateDdl}"/>
-        <property name="databasePlatform" value="org.hibernate.dialect.MySQL5Dialect"/>
-    </bean>
-
-
-    <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource"/>
-        <property name="configLocation" value="classpath:config/sqlMapConfig.xml"/>
-        <!-- 自动扫描mapping.xml文件 -->
-        <property name="mapperLocations" value="classpath:sqlmapping/*.xml"/>
-        <property name="typeAliasesPackage" value="com.rabbit.ssm.domain.model"/>
-    </bean>
-
-    <!-- DAO接口所在包名，Spring会自动查找其下的类 -->
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.rabbit.ssm.dao"/>
-        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-    </bean>
-
-    <!-- mybatis事务管理 -->
-    <bean id="transactionManager4Mybatis"
-          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
-        <qualifier value="tm4mybatis"/>
-    </bean>
-
-    <!--jpa事务管理-->
-    <bean id="transactionManager4Jpa" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManager"/>
-        <qualifier value="tm4jpa"/>
-    </bean>
-
     <!--启用声明式事务管理-->
     <tx:annotation-driven/>
 </beans>
