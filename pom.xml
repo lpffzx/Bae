@@ -26,6 +26,7 @@
         <aspectjweaver-version>1.8.10</aspectjweaver-version>
         <jackson-version>2.8.9</jackson-version>
         <org.hibernate-version>4.3.8.Final</org.hibernate-version>
+        <org.slf4j-version>1.7.25</org.slf4j-version>
     </properties>
 
     <profiles>
@@ -48,12 +49,14 @@
                 <maven.redis.pool.maxWaitMillis>10000</maven.redis.pool.maxWaitMillis>
                 <maven.redis.pool.testOnBorrow>true</maven.redis.pool.testOnBorrow>
 
-                <maven.log.level>INFO</maven.log.level>
+                <maven.log.info.level>INFO</maven.log.info.level>
+                <maven.log.err.level>WARN</maven.log.err.level>
                 <maven.log.additivity>false</maven.log.additivity>
+                <maven.log.ImmediateFlush>false</maven.log.ImmediateFlush>
             </properties>
         </profile>
         <profile>
-            <id>me</id>
+            <id>toni</id>
             <properties>
                 <maven.log.dir>/Users/Mr.Rabbit/Documents/Intellij/logs</maven.log.dir>
                 <maven.jdbc.url>jdbc:mysql://localhost:3306/mydb_bk?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
@@ -62,7 +65,27 @@
                 <maven.jdbc.driverLocation>
                     /Users/Mr.Rabbit/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
                 </maven.jdbc.driverLocation>
-                <maven.redis.connect.hostName>10.68.97.61</maven.redis.connect.hostName>
+                <maven.redis.connect.hostName>10.68.97.67</maven.redis.connect.hostName>
+                <!--<maven.redis.connect.hostName>localhost</maven.redis.connect.hostName>-->
+                <maven.redis.connect.port>6379</maven.redis.connect.port>
+                <maven.redis.connect.database>0</maven.redis.connect.database>
+                <maven.redis.connect.passward>zh593190</maven.redis.connect.passward>
+                <maven.jpa.generateDdl>true</maven.jpa.generateDdl>
+                <maven.jpa.showSql>true</maven.jpa.showSql>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>kevin</id>
+            <properties>
+                <maven.log.dir>/Users/Mr.Rabbit/Documents/Intellij/logs</maven.log.dir>
+                <maven.jdbc.url>jdbc:mysql://localhost:3306/mydb_bk?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
+                <maven.jdbc.user>root</maven.jdbc.user>
+                <maven.jdbc.passward>zh593190</maven.jdbc.passward>
+                <maven.jdbc.driverLocation>
+                    /Users/Mr.Rabbit/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+                </maven.jdbc.driverLocation>
+                <maven.redis.connect.hostName>10.68.97.67</maven.redis.connect.hostName>
                 <!--<maven.redis.connect.hostName>localhost</maven.redis.connect.hostName>-->
                 <maven.redis.connect.port>6379</maven.redis.connect.port>
                 <maven.redis.connect.database>0</maven.redis.connect.database>
@@ -178,6 +201,23 @@
             <artifactId>log4j</artifactId>
             <version>${log4j-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${org.slf4j-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${org.slf4j-version}</version>
+            <!--<scope>test</scope>-->
+        </dependency>
+
+
+
+
 
         <!-- mysql db -->
         <dependency>
@@ -331,6 +371,10 @@
                 <exclusion>
                     <artifactId>spring-aop</artifactId>
                     <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
